@@ -58,8 +58,6 @@ export const experiences = [
   {
     company: "Ernst & Young",
     role: "Senior Software Engineer",
-    period: "Sep 2020 – Jan 2026",
-    location: "London · Hybrid",
     highlights: [
       "Built a React + TypeScript private-cloud portal featuring VM provisioning flows, GraphQL-powered dashboards, and accessibility-compliant UI libraries (WCAG 2.1).",
       "Created a reusable component platform with npm publishing + Storybook docs, reducing form implementation time and accelerating onboarding across multiple banking teams.",
@@ -70,8 +68,6 @@ export const experiences = [
   {
     company: "Quickwork Technologies Pvt. Ltd.",
     role: "Software Engineer",
-    period: "Aug 2019 – Sep 2020",
-    location: "Mumbai · Remote collaboration",
     highlights: [
       "Delivered React/Redux trading workspaces with resilient state management for realtime financial data.",
       "Launched modular design systems and npm packages with semantic versioning for fintech teams.",
@@ -81,8 +77,6 @@ export const experiences = [
   {
     company: "Tech Mahindra Business Services",
     role: "Software Engineer",
-    period: "Nov 2018 – Aug 2019",
-    location: "Hyderabad",
     highlights: [
       "Developed Angular 9 CRM modules with strict TypeScript contracts for financial client data flows.",
       "Crafted interactive portfolio visualisations and reusable UI kits for enterprise rollouts.",
@@ -92,8 +86,6 @@ export const experiences = [
   {
     company: "L&T Technology Services (Rockwell)",
     role: "Associate Engineer",
-    period: "Nov 2013 – Sep 2018",
-    location: "Bengaluru",
     highlights: [
       "Contributed to journey-mapping platforms with scalable SCSS architectures.",
       "Automated regression suites with Selenium + JavaScript to boost release confidence.",

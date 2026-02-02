@@ -115,10 +115,6 @@ function App() {
                     <h3>{experience.role}</h3>
                     <p className="company">{experience.company}</p>
                   </div>
-                  <div className="period">
-                    <span>{experience.period}</span>
-                    <span>{experience.location}</span>
-                  </div>
                 </header>
                 <ul>
                   {experience.highlights.map((highlight) => (
