@@ -151,7 +151,6 @@ export const achievements = [
 ];
 
 export const roleAlignment = [
-  "Portfolio spans motion-aware dashboards, typography systems, and accessible UI libraries for financial platforms—demonstrating strong visual sensibility across responsive mediums.",
   "8 years delivering digital products with modern JavaScript frameworks (React, Next.js, Angular) and mentoring teams on design system craftsmanship.",
   "Partner closely with UX/UI teams in Figma to translate component specs into reusable libraries and CMS-friendly layouts.",
   "Comfortable bouncing between rapid prototypes in Figma and working React sandboxes—validating interaction patterns quickly before hardening them into production-ready components.",
