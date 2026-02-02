@@ -33,6 +33,27 @@ practice.`,
   ],
 };
 
+export const heroDetails = {
+  eyebrow: "Portfolio · 2026",
+  photo: {
+    src: "/images/neelofar.jpg",
+    alt: "Neelofar Khan",
+    caption: "London, United Kingdom",
+  },
+};
+
+export const aboutContent = {
+  intro:
+    "From banking-grade infrastructure portals to AI-assisted DevOps copilots, I translate complex financial workflows into responsive, accessible experiences. My toolkit spans component-driven architecture, GraphQL/Apollo, realtime data streams (WebSockets, SSE, RxJS), and disciplined testing practices. I thrive on close collaboration with product, UX, and platform teams to ship resilient releases through automated CI/CD.",
+  current:
+    "Currently heads-down on a fintech-focused component library, contributing to open-source React tooling, and mentoring communities of practice during evening build sessions.",
+  focus: [
+    "Design tokens, accessibility, and npm-ready UI kits",
+    "Open-source contributions around Storybook, docs automation",
+    "Advanced data visualisation & AI-assisted product surfaces",
+  ],
+};
+
 export const experiences = [
   {
     company: "Ernst & Young",

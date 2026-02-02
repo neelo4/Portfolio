@@ -2,8 +2,10 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import {
   achievements,
+  aboutContent,
   education,
   experiences,
+  heroDetails,
   profile,
   projects,
   roleAlignment,
@@ -48,7 +50,7 @@ function App() {
       <header className="hero" id="home">
         <div className="hero__content">
           <div className="hero__top-row">
-            <p className="eyebrow">Portfolio · 2026</p>
+            <p className="eyebrow">{heroDetails.eyebrow}</p>
             <button
               className="theme-toggle"
               type="button"
@@ -79,9 +81,9 @@ function App() {
         </div>
         <div className="hero__photo">
           <div className="photo-frame">
-            <img src="/images/neelofar.jpg" alt="Neelofar Khan" />
+            <img src={heroDetails.photo.src} alt={heroDetails.photo.alt} />
           </div>
-          <p className="photo-caption">London, United Kingdom</p>
+          <p className="photo-caption">{heroDetails.photo.caption}</p>
         </div>
       </header>
 
@@ -89,27 +91,15 @@ function App() {
         <section id="about">
           <SectionTitle label="About" />
           <div className="about-grid">
-            <p>
-              From banking-grade infrastructure portals to AI-assisted DevOps
-              copilots, I translate complex financial workflows into responsive,
-              accessible experiences. My toolkit spans component-driven
-              architecture, GraphQL/Apollo, realtime data streams (WebSockets,
-              SSE, RxJS), and disciplined testing practices. I thrive on close
-              collaboration with product, UX, and platform teams to ship
-              resilient releases through automated CI/CD.
-            </p>
+            <p>{aboutContent.intro}</p>
             <div className="about-card">
               <p className="label">Currently</p>
-              <p>
-                Investing my post–8 January 2026 time in a self-funded fintech
-                component library, contributing to open-source React tools, and
-                mentoring communities of practice.
-              </p>
+              <p>{aboutContent.current}</p>
               <p className="label">Focus Areas</p>
               <ul>
-                <li>Design tokens, accessibility, and npm-ready UI kits</li>
-                <li>Open-source contributions around Storybook, docs automation</li>
-                <li>Advanced data visualisation & AI-assisted product surfaces</li>
+                {aboutContent.focus.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
               </ul>
             </div>
           </div>
