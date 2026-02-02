@@ -101,14 +101,15 @@ function App() {
             <div className="about-card">
               <p className="label">Currently</p>
               <p>
-                Leading front-end delivery for cloud & AI enablement projects at
-                Ernst & Young through 8 January 2026.
+                Investing my post–8 January 2026 time in a self-funded fintech
+                component library, contributing to open-source React tools, and
+                mentoring communities of practice.
               </p>
               <p className="label">Focus Areas</p>
               <ul>
-                <li>Design systems & component libraries</li>
-                <li>Realtime observability dashboards</li>
-                <li>AI-assisted troubleshooting tools</li>
+                <li>Design tokens, accessibility, and npm-ready UI kits</li>
+                <li>Open-source contributions around Storybook, docs automation</li>
+                <li>Advanced data visualisation & AI-assisted product surfaces</li>
               </ul>
             </div>
           </div>
