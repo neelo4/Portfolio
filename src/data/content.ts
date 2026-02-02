@@ -151,14 +151,14 @@ export const achievements = [
 ];
 
 export const roleAlignment = [
-  "8 years delivering digital products with modern JavaScript frameworks (React, Next.js, Angular) and mentoring teams on design system craftsmanship.",
-  "Partner closely with UX/UI teams in Figma to translate component specs into reusable libraries and CMS-friendly layouts.",
-  "Comfortable bouncing between rapid prototypes in Figma and working React sandboxes—validating interaction patterns quickly before hardening them into production-ready components.",
-  "Deep command of front-end fundamentals (HTML, semantic CSS/SCSS, performance budgets, accessibility conformance) plus experience adapting to proprietary CMS environments.",
-  "Hands-on with component-centric frameworks (React, Angular) and bundlers such as Vite, Webpack, and module federation strategies.",
-  "Advocate for modern best practices—TDD, WCAG compliance, Lighthouse/performance tuning, and continuous learning through engineering guilds.",
-  "Git-native workflows with feature branching, code reviews, semantic versioning, and cross-time-zone collaboration rituals.",
-  "Drive Agile ceremonies with product/PM partners, using tooling like Jira, Confluence, Airtable-like status trackers, and automated CI/CD gates.",
-  "Integrate REST and GraphQL APIs (Apollo Client, custom fetch layers) plus backend coordination with Node.js-based services for AI copilots and automation flows.",
-  "Strong storytelling for complex infra use cases, aligning well with editorial values and willingness to support launches across flexible schedules when needed.",
+  "7+ years leading React and TypeScript delivery across enterprise-scale platforms, owning everything from discovery to deployment.",
+  "Deep experience crafting reusable component libraries, design tokens, and Storybook documentation that empower multi-team reuse.",
+  "Rapid prototyping across Figma and React sandboxes to validate complex interaction patterns before hardening them for production.",
+  "Front-end fundamentals obsessive: semantic HTML, advanced CSS/SCSS, performance budgets, and WCAG 2.1 accessibility baked into every build.",
+  "Fluent with modern tooling—Next.js, Vite, Webpack, module federation—and comfortable integrating legacy Angular stacks when needed.",
+  "Data-first mindset: hands-on with GraphQL (Apollo), REST, WebSockets/SSE, and real-time visualization layers such as Chart.js and D3.",
+  "Reliability advocate who sets up TDD suites (Jest, RTL, Cypress) plus CI/CD pipelines with semantic versioning and automated quality gates.",
+  "Strong collaborator with product, UX, and platform teams; facilitate Agile ceremonies, requirements refinement, and stakeholder demos.",
+  "Git-native workflows with thorough code reviews, trunk/feature branching strategies, and mentoring across distributed teams.",
+  "Clear communicator who can translate technical trade-offs for non-technical stakeholders and champion documentation for long-term maintainability.",
 ];
