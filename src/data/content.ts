@@ -6,7 +6,7 @@ export const profile = {
 
   summary: `I design calm, data-rich web apps for teams who live in complex dashboards all day. My toolkit is React, TypeScript, Next.js, and a design-system mindset that keeps accessibility, performance, and realtime data top of mind. This portfolio is a living build-log of the products, experiments, and component libraries I craft for fintech and infra teams.`,
   email: "neelo4khan@gmail.com",
-  phone: "+44 7555 798 863",
+
   linkedin: "https://www.linkedin.com/in/neelofar-k-32b726b8/",
   github: "https://github.com/neelo4",
   resumeLink:
