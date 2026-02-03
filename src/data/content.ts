@@ -42,7 +42,7 @@ export const aboutContent = {
 export const experiences = [
   {
     company: "Ernst & Young",
-    role: "Systems UI Lead · FinOps Studio",
+    role: "Software Engineer",
     summary:
       "Built EY's private-cloud cockpit and AI SRE copilots; treated every release like a case study for future design-system drops.",
     highlights: [
@@ -53,7 +53,7 @@ export const experiences = [
   },
   {
     company: "Quickwork Technologies",
-    role: "Product Engineer · Trading Workbench",
+    role: "Software Engineer",
     summary:
       "Prototyped market-ops workspaces that kept traders inside a single keyboard-driven surface.",
     highlights: [
@@ -75,7 +75,7 @@ export const experiences = [
   },
   {
     company: "L&T Technology Services (Rockwell)",
-    role: "Associate Engineer · Journey Labs",
+    role: "Associate Engineer",
     summary:
       "Cut my teeth on journey-mapping platforms, animation systems, and regression tooling.",
     highlights: [
