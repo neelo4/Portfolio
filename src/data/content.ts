@@ -2,24 +2,9 @@ export const profile = {
   name: "Neelofar Khan",
   title: "Senior Frontend Developer",
   location: "London, United Kingdom",
-  availability:
-    "Unrestricted right to work in the UK (Partner Visa, no sponsorship required)",
-  summary: `Senior Frontend Developer with 7+ years of expertise in building
-scalable applications using React, TypeScript, Advanced CSS and
-modern JavaScript frameworks. Proficient in Next.js. Specialises in
-developing responsive, interactive and accessible user interfaces for
-complex financial platforms and real-time data visualisation systems,
-with extensive experience building and maintaining reusable
-component libraries that serve multiple teams and products.
-Proven experience in cross-functional collaboration with business
-stakeholders and technical teams to deliver enterprise-grade solutions
-with CI/CD pipeline integration. Strong background in component-
-driven architecture, design systems, state management, and GraphQL
-integration with focus on creating performant interfaces that handle
-large datasets and complex business workflows, adhering to
-accessibility standards (WCAG 2.1). Experienced in system design
-principles and contributing to software engineering communities of
-practice.`,
+  availability: "Currently crafting self-directed fintech experiments",
+
+  summary: `I design calm, data-rich web apps for teams who live in complex dashboards all day. My toolkit is React, TypeScript, Next.js, and a design-system mindset that keeps accessibility, performance, and realtime data top of mind. This portfolio is a living build-log of the products, experiments, and component libraries I craft for fintech and infra teams.`,
   email: "neelo4khan@gmail.com",
   phone: "+44 7555 798 863",
   linkedin: "https://www.linkedin.com/in/neelofar-k-32b726b8/",
@@ -27,14 +12,14 @@ practice.`,
   resumeLink:
     "https://www.linkedin.com/in/neelofar-k-32b726b8/details/featured/",
   heroHighlights: [
-    "Component-driven design systems & reusable libraries",
-    "GraphQL-powered data workflows and realtime visualisations",
-    "CI/CD automation with semantic versioning and zero-downtime releases",
+    "Independent fintech R&D sprints & open devlogs",
+    "Component libraries with design tokens + Storybook systems",
+    "Realtime data visualisations with GraphQL + streaming UX",
   ],
 };
 
 export const heroDetails = {
-  eyebrow: "Portfolio · 2026",
+  eyebrow: "Independent Frontend Studio · 2026",
   photo: {
     src: "/images/neelofar.jpg",
     alt: "Neelofar Khan",
@@ -44,13 +29,13 @@ export const heroDetails = {
 
 export const aboutContent = {
   intro:
-    "From banking-grade infrastructure portals to AI-assisted DevOps copilots, I translate complex financial workflows into responsive, accessible experiences. My toolkit spans component-driven architecture, GraphQL/Apollo, realtime data streams (WebSockets, SSE, RxJS), and disciplined testing practices. I thrive on close collaboration with product, UX, and platform teams to ship resilient releases through automated CI/CD.",
+    "I build interfaces for people who make high-stakes decisions—platform engineers provisioning infra, analysts watching markets, operators monitoring AI pipelines. I care about focus, typography, animation restraint, and making advanced workflows feel effortless across light and dark surfaces.",
   current:
-    "Currently heads-down on a fintech-focused component library, contributing to open-source React tooling, and mentoring communities of practice during evening build sessions.",
+    "Currently running a personal fintech design-system lab, contributing to open-source React tooling, and documenting everything through build logs + teardown posts.",
   focus: [
-    "Design tokens, accessibility, and npm-ready UI kits",
-    "Open-source contributions around Storybook, docs automation",
-    "Advanced data visualisation & AI-assisted product surfaces",
+    "Design tokens, theming engines, and npm-ready UI kits",
+    "Storybook automation, docs-as-code, and DX tooling",
+    "Realtime data visualisation & AI-assisted product surfaces",
   ],
 };
 
@@ -164,14 +149,15 @@ export const achievements = [
 ];
 
 export const roleAlignment = [
-  "7+ years leading React and TypeScript delivery across enterprise-scale platforms, owning everything from discovery to deployment.",
-  "Deep experience crafting reusable component libraries, design tokens, and Storybook documentation that empower multi-team reuse.",
-  "Rapid prototyping across Figma and React sandboxes to validate complex interaction patterns before hardening them for production.",
-  "Front-end fundamentals obsessive: semantic HTML, advanced CSS/SCSS, performance budgets, and WCAG 2.1 accessibility baked into every build.",
-  "Fluent with modern tooling—Next.js, Vite, Webpack, module federation—and comfortable integrating legacy Angular stacks when needed.",
-  "Data-first mindset: hands-on with GraphQL (Apollo), REST, WebSockets/SSE, and real-time visualization layers such as Chart.js and D3.",
-  "Reliability advocate who sets up TDD suites (Jest, RTL, Cypress) plus CI/CD pipelines with semantic versioning and automated quality gates.",
-  "Strong collaborator with product, UX, and platform teams; facilitate Agile ceremonies, requirements refinement, and stakeholder demos.",
-  "Git-native workflows with thorough code reviews, trunk/feature branching strategies, and mentoring across distributed teams.",
-  "Clear communicator who can translate technical trade-offs for non-technical stakeholders and champion documentation for long-term maintainability.",
+  "Self-funded experiments (Scroll Island, AI Doc Generator, Fintech Component Library) that turn into reusable kits and teaching moments for the teams I pair with.",
+  "Design-systems craft: design tokens, theming engines, and Storybook spaces that let other engineers plug in without reinventing layouts.",
+  "Realtime data instincts—GraphQL, WebSockets/SSE, RxJS—paired with motion guidelines so dense dashboards stay calm and legible.",
+  "Testing and delivery muscle-memory with Jest, RTL, Cypress, and semantic-release pipelines that keep independent launches as rigorous as enterprise releases.",
+  "Developer relations habits: pairing, mentoring, writing build logs, and translating messy requirements into opinionated component APIs.",
+  "Balanced tooling approach: excited about Next.js, Vite, and module federation, yet comfortable meeting teams inside legacy Angular workspaces when needed.",
+  "Accessibility and performance budgets defined at the beginning of a project, tracked through CI, and shared through dashboards other teams can reuse.",
+  "Remote-friendly rituals—async demos, Loom walkthroughs, annotated PRs—that make collaboration feel intentional across time zones.",
 ];
+
+export const roleAlignmentIntro =
+  "This section isn’t a pitch—it’s how I run my own product lab, document learnings, and collaborate with teams who care about the craft.";

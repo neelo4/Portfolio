@@ -9,6 +9,7 @@ import {
   profile,
   projects,
   roleAlignment,
+  roleAlignmentIntro,
   skills,
 } from "./data/content";
 
@@ -70,7 +71,7 @@ function App() {
           </ul>
           <div className="hero__meta">
             <span>{profile.location}</span>
-            <span>{profile.availability}</span>
+            {profile.availability ? <span>{profile.availability}</span> : null}
           </div>
           <div className="hero__actions">
             <ExternalLink href={`mailto:${profile.email}`} label="Email" />
@@ -181,8 +182,8 @@ function App() {
         </section>
 
         <section id="role-fit">
-          <SectionTitle label="Why I’m A Match" />
-
+          <SectionTitle label="Practice & Lab Notes" />
+          <p className="role-intro">{roleAlignmentIntro}</p>
           <ul className="role-list">
             {roleAlignment.map((item) => (
               <li key={item}>{item}</li>
