@@ -42,39 +42,46 @@ export const aboutContent = {
 export const experiences = [
   {
     company: "Ernst & Young",
-    role: "Senior Software Engineer",
+    role: "Systems UI Lead · FinOps Studio",
+    summary:
+      "Built EY's private-cloud cockpit and AI SRE copilots; treated every release like a case study for future design-system drops.",
     highlights: [
-      "Built a React + TypeScript private-cloud portal featuring VM provisioning flows, GraphQL-powered dashboards, and accessibility-compliant UI libraries (WCAG 2.1).",
-      "Created a reusable component platform with npm publishing + Storybook docs, reducing form implementation time and accelerating onboarding across multiple banking teams.",
-      "Established TDD pipelines with Jest/React Testing Library reaching 85% coverage, plus Jenkins-based CI/CD with semantic releases and environment-aware templates.",
-      "Partnered with ML engineers to ship an AI troubleshooting assistant using RAG, WebSockets, RxJS, and streaming UX patterns that cut deployment incident resolution time by ~70%.",
+      "Composed a React/TypeScript control plane with GraphQL live tiles, theming APIs, and lab-quality accessibility baked into each widget.",
+      "Spun up an npm-published component atlas (tokens, charts, admin primitives) so banking squads could assemble flows in hours, not weeks.",
+      "Paired with ML+SRE crews to ship an RAG-powered troubleshooting assistant using WebSockets/RxJS streams that now resolves incidents 70% faster.",
     ],
   },
   {
-    company: "Quickwork Technologies Pvt. Ltd.",
-    role: "Software Engineer",
+    company: "Quickwork Technologies",
+    role: "Product Engineer · Trading Workbench",
+    summary:
+      "Prototyped market-ops workspaces that kept traders inside a single keyboard-driven surface.",
     highlights: [
-      "Delivered React/Redux trading workspaces with resilient state management for realtime financial data.",
-      "Launched modular design systems and npm packages with semantic versioning for fintech teams.",
-      "Implemented Cypress + Jest testing suites that safeguarded cross-browser compatibility.",
+      "Designed Redux + RxJS data lanes that hydrated multi-monitor dashboards with millisecond updates and zero dropped frames.",
+      "Documented a modular design kit/CLI that output themed React packages with semantic versioning and Storybook previews.",
+      "Automated Cypress + Jest suites watching 40+ core flows, giving product the confidence to push intraday patches.",
     ],
   },
   {
     company: "Tech Mahindra Business Services",
-    role: "Software Engineer",
+    role: "Experience Engineer · CRM Pods",
+    summary:
+      "Refined Angular-based CRM journeys for financial operations teams and spun those learnings into starter libraries.",
     highlights: [
-      "Developed Angular 9 CRM modules with strict TypeScript contracts for financial client data flows.",
-      "Crafted interactive portfolio visualisations and reusable UI kits for enterprise rollouts.",
-      "Introduced integration and unit testing practices across multi-team initiatives.",
+      "Built contract-safe Angular modules with typed data adapters and accessible micro-interactions.",
+      "Shipped reusable visualization blueprints (charts, what-if canvases) that rolled out to five enterprise accounts.",
+      "Coached teams through their first automated test pipelines, folding in unit + integration coverage targets.",
     ],
   },
   {
     company: "L&T Technology Services (Rockwell)",
-    role: "Associate Engineer",
+    role: "Associate Engineer · Journey Labs",
+    summary:
+      "Cut my teeth on journey-mapping platforms, animation systems, and regression tooling.",
     highlights: [
-      "Contributed to journey-mapping platforms with scalable SCSS architectures.",
-      "Automated regression suites with Selenium + JavaScript to boost release confidence.",
-      "Recognised for technical leadership through specialised engineering programs.",
+      "Invented SCSS architecture patterns for map-heavy UIs so designers could theme clusters without touching logic.",
+      "Implemented Selenium + JS smoke suites that ran between every release train, freeing engineers to focus on new workflows.",
+      "Facilitated internal guilds where we swapped snippets, motion tests, and component ideas that later became full features.",
     ],
   },
 ];

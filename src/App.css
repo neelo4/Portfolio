@@ -215,6 +215,17 @@ section {
   backdrop-filter: blur(24px);
 }
 
+.section--compact {
+  max-width: 720px;
+  width: 100%;
+  align-self: center;
+  padding: 1.8rem;
+}
+
+.section--connect {
+  text-align: center;
+}
+
 .section-title {
   display: flex;
   align-items: center;
@@ -266,53 +277,66 @@ section {
   margin: 0;
 }
 
-.experience-list {
+.experience-intro {
+  margin: 0 0 1.5rem;
+  color: var(--text-secondary);
+  max-width: 60ch;
+}
+
+.experience-timeline {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.6rem;
 }
 
 .experience-card {
-  padding: 1.5rem;
-  border-radius: 20px;
+  position: relative;
+}
+
+.experience-card__body {
+  padding: 1.7rem;
+  border-radius: 24px;
   border: 1px solid var(--border-soft);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent),
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), transparent),
     var(--surface-elevated);
-  backdrop-filter: blur(16px);
-  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.06);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
 }
 
-.experience-card header {
+.experience-card__body header {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 1rem;
+  align-items: flex-start;
 }
 
-.experience-card h3 {
+.experience-card__eyebrow {
   margin: 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text-label);
+}
+
+.experience-card__body h3 {
+  margin: 0.2rem 0 0;
   font-size: 1.2rem;
   color: var(--text-primary);
 }
 
-.company {
-  margin: 0.2rem 0 0;
+.experience-card__summary {
+  margin: 0.8rem 0 0.8rem;
   color: var(--text-secondary);
-  font-weight: 600;
+  line-height: 1.6;
 }
 
-.period {
+.experience-card__body ul {
+  margin: 0;
+  padding-left: 1.15rem;
+  color: var(--text-secondary);
   display: flex;
   flex-direction: column;
-  text-align: right;
-  font-size: 0.9rem;
-  color: var(--text-muted);
-}
-
-.experience-card ul {
-  margin: 0.8rem 0 0;
-  padding-left: 1.1rem;
-  color: var(--text-secondary);
+  gap: 0.5rem;
 }
 
 .project-grid {
@@ -452,29 +476,72 @@ section {
   box-shadow: 0 0 15px rgba(39, 52, 255, 0.6);
 }
 
-.contact-card {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
+.connect-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.8rem;
   border: 1px solid var(--border-soft);
-  border-radius: 20px;
-  padding: 1.5rem;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), transparent),
+  border-radius: 28px;
+  padding: 1.8rem 2rem 2.2rem;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.04), transparent),
     var(--surface-elevated);
-  backdrop-filter: blur(16px);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 25px 40px rgba(15, 23, 42, 0.12);
 }
 
-.contact-card a {
-  color: var(--accent);
+.connect-email-block {
+  text-align: center;
+}
+
+.connect-email {
+  font-size: 1.1rem;
   font-weight: 600;
+  color: var(--accent);
   text-decoration: none;
 }
 
-.contact-links {
+.icon-links {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 0.4rem;
+  gap: 0.85rem;
+  justify-content: center;
+}
+
+.icon-link {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 1.5px solid var(--border-strong);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-contrast);
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(10px);
+  transition: transform 0.2s ease, border-color 0.2s ease, color 0.2s ease,
+    background 0.2s ease;
+}
+
+body:not([data-theme='dark']) .icon-link {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.8);
+}
+
+:root[data-theme='dark'] .icon-link {
+  color: #f6f8ff;
+}
+
+.icon-link:hover,
+.icon-link:focus-visible {
+  transform: translateY(-3px);
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.icon-link svg {
+  width: 26px;
+  height: 26px;
 }
 
 footer {

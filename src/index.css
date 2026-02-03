@@ -3,29 +3,30 @@
 :root {
   --font-base: 'Space Grotesk', 'Inter', 'Segoe UI', system-ui, -apple-system,
     BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
-  --bg-body: radial-gradient(circle at 10% 20%, #ffffff, #eef2fb 55%, #e3e8f5);
-  --surface-primary: rgba(255, 255, 255, 0.9);
-  --surface-elevated: rgba(255, 255, 255, 0.8);
-  --surface-muted: rgba(243, 245, 255, 0.85);
-  --surface-pill: rgba(227, 233, 255, 0.9);
-  --border-soft: rgba(167, 182, 231, 0.35);
-  --border-strong: rgba(120, 137, 196, 0.45);
-  --text-primary: #0b1021;
-  --text-secondary: #1f2432;
-  --text-muted: #6b7289;
-  --text-label: #8186a6;
-  --accent: #2734ff;
+  --bg-body: radial-gradient(circle at 10% 20%, #f7fafc, #edf2f7 55%, #e2e8f0);
+  --surface-primary: rgba(255, 255, 255, 0.92);
+  --surface-elevated: rgba(247, 250, 252, 0.95);
+  --surface-muted: rgba(237, 242, 247, 0.95);
+  --surface-pill: rgba(226, 232, 240, 0.85);
+  --border-soft: rgba(148, 163, 184, 0.35);
+  --border-strong: rgba(100, 116, 139, 0.45);
+  --text-primary: #1a202c;
+  --text-secondary: #2d3748;
+  --text-muted: #4a5568;
+  --text-label: #718096;
+  --accent: #40645c;
+  --accent-alt: #253b35;
   --accent-contrast: #ffffff;
   --shadow-soft: 0 35px 80px rgba(15, 23, 42, 0.08);
-  --shadow-card: 0 25px 60px rgba(15, 23, 42, 0.08);
-  --glow-1: rgba(70, 112, 255, 0.4);
-  --glow-2: rgba(255, 126, 194, 0.35);
+  --shadow-card: 0 25px 60px rgba(15, 23, 42, 0.07);
+  --glow-1: rgba(64, 100, 92, 0.35);
+  --glow-2: rgba(90, 125, 116, 0.3);
   --noise: linear-gradient(
       115deg,
-      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.6),
       rgba(255, 255, 255, 0)
     )
-    rgba(255, 255, 255, 0.6);
+    rgba(247, 250, 252, 0.7);
 }
 
 :root[data-theme='dark'] {
