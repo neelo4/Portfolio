@@ -330,13 +330,46 @@ section {
   line-height: 1.6;
 }
 
-.experience-card__body ul {
+.experience-card__highlights {
   margin: 0;
   padding-left: 1.15rem;
   color: var(--text-secondary);
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+
+.experience-card__toggle {
+  margin-top: 0.9rem;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--border-soft);
+  background: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.04)
+    ),
+    var(--surface-elevated);
+  color: var(--text-primary);
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.experience-card__toggle:hover {
+  transform: translateY(-1px);
+  border-color: var(--accent);
+  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.12);
+}
+
+.experience-card__toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 .project-grid {

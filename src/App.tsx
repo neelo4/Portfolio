@@ -124,8 +124,13 @@ const ExternalLink = ({ href, label }: { href: string; label: string }) => (
   </a>
 );
 
+const EXPERIENCE_PREVIEW_COUNT = 4;
+
 function App() {
   const [theme, setTheme] = useState<"light" | "dark">("light");
+  const [expandedExperiences, setExpandedExperiences] = useState<
+    Record<string, boolean>
+  >({});
   const profilePhone = (profile as ProfileWithOptionalPhone).phone;
   const hasPhone = Boolean(profilePhone);
   const phoneHref = profilePhone?.replace(/\s+/g, "");
@@ -151,6 +156,13 @@ function App() {
 
   const toggleTheme = () =>
     setTheme((mode) => (mode === "light" ? "dark" : "light"));
+
+  const toggleExperience = (company: string) => {
+    setExpandedExperiences((prev) => ({
+      ...prev,
+      [company]: !prev[company],
+    }));
+  };
 
   return (
     <div className="page">
@@ -234,11 +246,28 @@ function App() {
                       {experience.summary}
                     </p>
                   ) : null}
-                  <ul>
-                    {experience.highlights.map((highlight) => (
+                  <ul className="experience-card__highlights">
+                    {(expandedExperiences[experience.company]
+                      ? experience.highlights
+                      : experience.highlights.slice(0, EXPERIENCE_PREVIEW_COUNT)
+                    ).map((highlight) => (
                       <li key={highlight}>{highlight}</li>
                     ))}
                   </ul>
+                  {experience.highlights.length > EXPERIENCE_PREVIEW_COUNT ? (
+                    <button
+                      type="button"
+                      className="experience-card__toggle"
+                      onClick={() => toggleExperience(experience.company)}
+                      aria-expanded={Boolean(
+                        expandedExperiences[experience.company],
+                      )}
+                    >
+                      {expandedExperiences[experience.company]
+                        ? "Read less"
+                        : `Read more (${experience.highlights.length - EXPERIENCE_PREVIEW_COUNT} more)`}
+                    </button>
+                  ) : null}
                 </div>
               </article>
             ))}

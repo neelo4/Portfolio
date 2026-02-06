@@ -29,7 +29,7 @@ export const heroDetails = {
 
 export const aboutContent = {
   intro:
-    "I build interfaces for people who make high-stakes decisions—platform engineers provisioning infra, analysts watching markets, operators monitoring AI pipelines. I care about focus, typography, animation restraint, and making advanced workflows feel effortless across light and dark surfaces.",
+    "Senior Frontend Developer with 7+ years of experience building scalable web applications using React, TypeScript, modern JavaScript, and CSS, with strong expertise in Next.js, Sass, and Tailwind CSS. Experienced in designing reusable component libraries and accessible design systems for complex financial platforms and real-time data visualisation. Brings a strong focus on performance, maintainability, and usability across large datasets, including recent work on AI-enabled features such as RAG-based systems. Comfortable collaborating cross-functionally and contributing to system design, CI/CD practices, and WCAG 2.1–compliant engineering standards.",
   current:
     "Currently running a personal fintech design-system lab, contributing to open-source React tooling, and documenting everything through build logs + teardown posts.",
   focus: [
@@ -46,9 +46,26 @@ export const experiences = [
     summary:
       "Built EY's private-cloud cockpit and AI SRE copilots; treated every release like a case study for future design-system drops.",
     highlights: [
-      "Composed a React/TypeScript control plane with GraphQL live tiles, theming APIs, and lab-quality accessibility baked into each widget.",
-      "Spun up an npm-published component atlas (tokens, charts, admin primitives) so banking squads could assemble flows in hours, not weeks.",
-      "Paired with ML+SRE crews to ship an RAG-powered troubleshooting assistant using WebSockets/RxJS streams that now resolves incidents 70% faster.",
+      "Developed a React-based cloud management portal with TypeScript for a banking client's private cloud infrastructure, featuring VM configuration, database setup, resource provisioning, and real-time Chart.js monitoring dashboards to ensure data compliance while maintaining AWS Console-like functionality.",
+      "Designed and implemented a reusable React component library with TypeScript following atomic design and API-first principles, spanning base components (buttons, inputs, cards) to complex composites (data tables, configuration wizards, approval workflows) with WCAG 2.1 accessibility as a first-class concern through semantic HTML, ARIA, keyboard navigation, focus management, and server-side rendering with Handlebars to optimize performance and SEO.",
+      "Implemented a component publishing and distribution system using npm and Storybook, ensuring production standards for accessibility, performance, and reliability, including advanced form components with built-in validation and accessible interaction patterns plus specialized Chart.js visualization wrappers for real-time dashboards.",
+      "Authored comprehensive documentation that reduced form implementation time and improved cross-team developer onboarding.",
+      "Used Lighthouse audits to validate WCAG 2.1 accessibility, semantic HTML usage, and SEO best practices across shared UI components.",
+      "Advocated pragmatic, scenario-driven testing with the test pyramid, prioritizing unit and integration tests using Jest and React Testing Library, plus Playwright for end-to-end coverage of critical user journeys.",
+      "Focused testing on real user interactions and business workflows rather than superficial code coverage, ensuring confidence in behavior, regressions, and system reliability.",
+      "Worked closely with product managers, business analysts, and UX designers to translate complex infrastructure requirements into intuitive user interfaces, facilitating design workshops and technical feasibility assessments.",
+      "Engineered state management solutions using Redux, Context API, and useImmer for enterprise cloud applications, handling approval workflows, resource allocation processes, and notification systems for governance and compliance.",
+      "Built automated CI/CD pipelines with Jenkins for continuous delivery, implementing semantic versioning, templated configuration management with EJS for environment-specific deployments, and zero-downtime releases with resiliency.",
+      "Architected an intelligent assistant for the cloud platform using RAG (Retrieval-Augmented Generation), creating a centralized knowledge base from PDFs, Word docs, and Confluence, converting content into a vector database integrated with an LLM for real-time query resolution and troubleshooting.",
+      "Collaborated with ML engineers to integrate RAG architecture, bridging Python-based vector database queries and the React frontend with streaming responses, error states, and graceful degradation under load.",
+      "Engineered an intelligent error-resolution system by aggregating historical pipeline failures into a RAG-based knowledge base, surfacing relevant solutions and similar incidents by analyzing error patterns and stack traces, reducing mean time to resolution by ~70%.",
+      "Built advanced messaging interface components for an AI-powered chatbot system with WebSocket streaming, RxJS state management, and UX optimization for pipeline setup, resource allocation, and database configuration tools.",
+      "Created visual feedback systems that exposed AI reasoning stages (searching documentation, checking permissions, generating configuration), turning a black box into a transparent tool.",
+      "Integrated GraphQL queries using Apollo Client to fetch and manage VM configuration data for cloud resource monitoring dashboards.",
+      "Led communities of practice and mentored junior engineers on advanced React patterns, templating (Handlebars, Nunjucks), module federation, and scalable design strategies.",
+      "Built low-latency, event-driven UIs for large, rapidly changing datasets using WebSockets, Server-Sent Events (SSE), and RxJS.",
+      "Created detailed technical documentation including API specs and integration guides for fast-paced cloud infrastructure environments.",
+      "Took end-to-end ownership of frontend modules from requirements through implementation, testing, and deployment.",
     ],
   },
   {
